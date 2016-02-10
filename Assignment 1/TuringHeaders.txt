@@ -1,6 +1,8 @@
 Jonathan Pham
 HTTP Header Descriptions
 
+Assertion - Check valid HTTP response code from request: 200
+
 access-control-allow-credentials - the server can give permission to include cookies by setting this header to true
 
 access-control-allow-origin - this tells the browser that the content of this page is accessible to certain origins (domain)
