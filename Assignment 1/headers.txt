@@ -1,0 +1,28 @@
+Jonathan Pham
+HTTP Header Descriptions
+
+access-control-allow-credentials - the server can give permission to include cookies by setting this header to true
+
+access-control-allow-origin - this tells the browser that the content of this page is accessible to certain origins (domain)
+
+access-control-expose-headers - this header lets a server whitelist headers that browsers are allowed to access
+
+alternate-protocol - does server advertisement of SPDY
+
+cache-control - this directive controls who can cache the response, under which conditions, and for how long
+
+content-encoding - indicates which algorithm has been used for this message
+
+content-type - indicates the MIME type of the served document. This helps the user agent (browser) to understand what to do with the received data.
+
+pragma - deals with expiration times and usually is there if expires is not included
+
+expires - deals with experation times
+
+vary - lists the headers used as criteria for choosing a specific content by the web server. This server is important for efficient and correct cashing of the resource sent.
+
+x-frame-options - used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe> or <object>
+
+x-content-type-options - prevents the browser from doing MIME-type sniffing. 
+
+x-xss-protection - enables the cross-site scripting (XSS) filter built into most recent web browsers. It's usually enabled by default anyway, so the role of this header is to re-enable the filter for this particular website if it was disabled by the user.
