@@ -1,0 +1,35 @@
+{
+	"id": "2d7b2fff-6615-a83a-4101-62b64016a89c",
+	"name": "Assignment 1",
+	"description": "",
+	"order": [
+		"17fb137d-944f-594e-dc51-e95f7d6e3978"
+	],
+	"folders": [],
+	"timestamp": 1453940508893,
+	"owner": "301283",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "17fb137d-944f-594e-dc51-e95f7d6e3978",
+			"headers": "",
+			"url": "https://www.googleapis.com/books/v1/volumes?q=turing",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "2d7b2fff-6615-a83a-4101-62b64016a89c",
+			"data": [],
+			"dataMode": "params",
+			"name": "Turing",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1453940731685,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
