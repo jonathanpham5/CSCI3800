@@ -1,0 +1,20 @@
+Jonathan Pham
+HTTP Header Descriptions
+
+cache-control - this directive controls who can cache the response, under which conditions, and for how long
+
+connection - controls whether or not the network connection stays open after the current transaction finishes
+
+server - server the response is going through
+
+x-aspnet-version - ASP .net version being used
+
+content-length - length of the response
+
+date - date of response
+
+x-powered-by - the platform that powers it (ASP.NET)
+
+content-type - indicates the MIME type of the served document. This helps the user agent (browser) to understand what to do with the received data.
+
+via - Informs the server of proxies through which the request was sent
