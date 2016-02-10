@@ -1,6 +1,8 @@
 Jonathan Pham
 HTTP Header Descriptions
 
+Assertion - Check for valid HTTP status code: 200
+
 cache-control - this directive controls who can cache the response, under which conditions, and for how long
 
 connection - controls whether or not the network connection stays open after the current transaction finishes
