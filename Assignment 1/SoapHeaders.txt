@@ -1,7 +1,7 @@
 Jonathan Pham
 HTTP Header Descriptions
 
-Assertion - Check for valid HTTP status code: 200
+Assertion - Check for valid HTTP status code: 200 and Country Name 
 
 cache-control - this directive controls who can cache the response, under which conditions, and for how long
 
