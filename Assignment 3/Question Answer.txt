@@ -1,0 +1,3 @@
+Give one reason OAuth tokens should not be granted in the main flow, assuming the user has sent in the correct credentials.
+
+Because OAuth tokens should not be granted in the main flow because then if policies change the application can run the same.
