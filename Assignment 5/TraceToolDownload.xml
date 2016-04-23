@@ -1,0 +1,4857 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DebugSession>
+<Retrieved>2016-04-23T17:56:07.037Z</Retrieved>
+<Organization>phamjon</Organization>
+<Environment>test</Environment>
+<API>hw4</API>
+<Revision>1</Revision>
+<SessionId></SessionId>
+<Messages>
+<Message>
+<DebugId>8d311ffa-c742-42ca-8707-3024c4309555__136186</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:901</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Deadpool</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Deadpool</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.29</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:902</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:903</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:904</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="42042" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:904</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:904</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="22154" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:904</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:904</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:46:905</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:008</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:008</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:008</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:009</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:010</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:011</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:012</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">-647387106</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+<Message>
+<DebugId>e509c4fd-58e4-44db-90e4-6ea810b53748__136022</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:619</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:619</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:619</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:619</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Deadpool</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Deadpool</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.169</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:620</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:621</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="40915" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:622</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:622</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="22186" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:622</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:622</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:622</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:790</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:790</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:790</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:791</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:792</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:793</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:793</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-2</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:793</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:793</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:793</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:794</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-2</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:54:47:794</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:54:47 GMT</Header>
+                <Header name="ETag">1435053402</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-2</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+<Message>
+<DebugId>8d311ffa-c742-42ca-8707-3024c4309555__136187</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:282</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:283</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:283</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:283</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:283</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Deadpool</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Deadpool</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.169</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:283</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:284</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:285</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:285</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:285</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="45891" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:285</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:286</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Deadpool</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="22998" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:286</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:286</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:286</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:373</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:373</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:374</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:374</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:374</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:375</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;175e4a3a-feb1-11e5-b7c5-c30e608414a1&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Deadpool&quot;,
+      &quot;created&quot;: 1460247225939,
+      &quot;modified&quot;: 1460247225939,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ryan Reynolds&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Karan Soni&quot;
+        },
+        .....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:376</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:377</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:377</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:377</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:377</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:377</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:00:378</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:00 GMT</Header>
+                <Header name="ETag">-853248519</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-3</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+<Message>
+<DebugId>e509c4fd-58e4-44db-90e4-6ea810b53748__136023</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Carol</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Carol</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.29</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:346</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:347</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:348</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:348</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:348</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:348</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:348</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="38673" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:349</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:349</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="20816" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:349</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:349</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:356</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+            <Get value="1.1" name="request.version"/>
+            <Get value="1.1" name="request.version"/>
+            <Get value="1.1" name="request.version"/>
+            <Get value="1.1" name="request.version"/>
+            <Get value="/gets/Carol" name="proxy.pathsuffix"/>
+            <Get value="" name="request.querystring"/>
+            <Get value="GET" name="request.verb"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:404</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:405</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:405</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:406</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:407</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:408</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:409</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:409</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:09:409</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:09 GMT</Header>
+                <Header name="ETag">1585075653</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+<Message>
+<DebugId>8d311ffa-c742-42ca-8707-3024c4309555__136188</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:815</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Carol</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Carol</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.29</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:816</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:817</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="44065" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:818</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:818</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.29</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Carol</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="25583" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:818</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:818</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:819</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:881</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:881</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:881</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:882</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:883</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;47e0a7ca-feb1-11e5-a033-a5a86392bf19&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Carol&quot;,
+      &quot;created&quot;: 1460247307324,
+      &quot;modified&quot;: 1460247307324,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Cate Blanchett&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Rooney Mara&quot;
+        },
+        {.....</Content>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:884</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:884</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-5</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:884</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:884</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:884</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:885</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-5</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:11:886</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">812</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:11 GMT</Header>
+                <Header name="ETag">1169897365</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369587-5</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+<Message>
+<DebugId>e509c4fd-58e4-44db-90e4-6ea810b53748__136024</DebugId>
+
+<Data>
+    <Completed>true</Completed>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:290</Timestamp>
+            <Properties>
+                <Property name="To">REQ_HEADERS_PARSED</Property>
+                <Property name="From">REQ_START</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Apigee.application">hw4</Header>
+                <Header name="X-Apigee.environment">test</Header>
+                <Header name="X-Apigee.organization">phamjon</Header>
+                <Header name="X-Apigee.proxy">default</Header>
+                <Header name="X-Apigee.revision">1</Header>
+                <Header name="X-Apigee.vhost">default</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Zootopia</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="environment.name">test</Property>
+                <Property name="environment.qualifiedname">phamjon__test</Property>
+                <Property name="environment.orgname">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="organization.name">phamjon</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="apiproxy.qualifiedname">hw4__1</Property>
+                <Property name="apiproxy.basepath">/</Property>
+                <Property name="apiproxy.revision">1</Property>
+                <Property name="apiproxy.name">hw4</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="proxy.basepath">/hw4</Property>
+                <Property name="proxy.pathsuffix">/gets/Zootopia</Property>
+                <Property name="proxy.url">http://rrt333ea.us-ea.4.apigee.com/hw4/gets/Zootopia</Property>
+                <Property name="proxy.name">default</Property>
+                <Property name="proxy.client.ip">54.148.126.169</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="virtualhost.port">80</Property>
+                <Property name="virtualhost.name">default</Property>
+                <Property name="virtualhost.ssl.enabled">false</Property>
+                <Property name="virtualhost.aliases">{phamjon-test.apigee.net}</Property>
+                <Property name="virtualhost.ip">192.168.7.86</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_REQ_FLOW</Property>
+                <Property name="From">REQ_HEADERS_PARSED</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Zootopia</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:291</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="route.name">default</Property>
+                <Property name="route.target">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="target.basepath.with.query">/</Property>
+                <Property name="target.copy.queryparams">true</Property>
+                <Property name="target.copy.pathsuffix">true</Property>
+                <Property name="target.basepath">/</Property>
+                <Property name="target.name">default</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties/>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_REQ_FLOW</Property>
+                <Property name="From">PROXY_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Zootopia</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:292</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">extractvariables</Property>
+                <Property name="type">ExtractVariablesExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">true</Property>
+                <Property name="stepDefinition-displayName">Extract Statistics Request</Property>
+                <Property name="stepDefinition-name">__extract-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Zootopia</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="37611" name="apigee.metrics.policy.__extract-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:293</Timestamp>
+            <Properties>
+                <Property name="Identifier">analytics</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:293</Timestamp>
+            <Properties>
+                <Property name="action">CONTINUE</Property>
+                <Property name="stepDefinition-async">false</Property>
+                <Property name="internal">false</Property>
+                <Property name="stepDefinition-type">StatisticsCollectionStepDefinition</Property>
+                <Property name="type">StatsCollectorStepExecution</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="stepDefinition-continueOnError">false</Property>
+                <Property name="stepDefinition-displayName">Collect Statistics Request</Property>
+                <Property name="stepDefinition-name">__collect-statistics-request__</Property>
+                <Property name="stepDefinition-enabled">true</Property>
+                <Property name="result">true</Property>
+            </Properties>
+        </DebugInfo>
+        <RequestMessage>
+            <Headers>
+                <Header name="Accept">*/*</Header>
+                <Header name="Accept-Encoding">gzip,deflate</Header>
+                <Header name="Host">phamjon-test.apigee.net</Header>
+                <Header name="User-Agent">NING/1.0</Header>
+                <Header name="X-Forwarded-For">54.148.126.169</Header>
+                <Header name="X-Forwarded-Port">80</Header>
+                <Header name="X-Forwarded-Proto">http</Header>
+            </Headers>
+            <URI>/hw4/gets/Zootopia</URI>
+            <Verb>GET</Verb>
+        </RequestMessage>
+        <VariableAccess>
+            <Set success="true" value="21351" name="apigee.metrics.policy.__collect-statistics-request__.timeTaken"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:293</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:293</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:294</Timestamp>
+            <Properties>
+                <Property name="result">true</Property>
+                <Property name="ScriptOutput">*** Starting script
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+
+
+*** Starting script
+</Property>
+                <Property name="enforcement">request</Property>
+                <Property name="internal">false</Property>
+                <Property name="ScriptName">server-usergrid.js</Property>
+                <Property name="type">ScriptExecutor</Property>
+                <Property name="ScriptType">Node.js</Property>
+                <Property name="action">PAUSE</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers/>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess>
+            <Get value="1.1" name="request.version"/>
+            <Set success="true" value="1.1" name="response.version"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:353</Timestamp>
+            <Properties>
+                <Property name="To">REQ_SENT</Property>
+                <Property name="From">TARGET_REQ_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:354</Timestamp>
+            <Properties>
+                <Property name="To">RESP_START</Property>
+                <Property name="From">REQ_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:354</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:354</Timestamp>
+            <Properties>
+                <Property name="To">TARGET_RESP_FLOW</Property>
+                <Property name="From">RESP_START</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;719e148a-feb1-11e5-94a3-5706490846eb&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Zootopia&quot;,
+      &quot;created&quot;: 1460247377352,
+      &quot;modified&quot;: 1460247377352,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ginnifer Goodwin&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Jason Bateman&quot;
+        },
+  .....</Content>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="target.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_RESP_FLOW</Property>
+                <Property name="From">TARGET_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;719e148a-feb1-11e5-94a3-5706490846eb&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Zootopia&quot;,
+      &quot;created&quot;: 1460247377352,
+      &quot;modified&quot;: 1460247377352,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ginnifer Goodwin&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Jason Bateman&quot;
+        },
+  .....</Content>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PreFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:355</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="To">RESP_SENT</Property>
+                <Property name="From">PROXY_RESP_FLOW</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;719e148a-feb1-11e5-94a3-5706490846eb&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Zootopia&quot;,
+      &quot;created&quot;: 1460247377352,
+      &quot;modified&quot;: 1460247377352,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ginnifer Goodwin&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Jason Bateman&quot;
+        },
+  .....</Content>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals target.name)</Property>
+                <Property name="Tree">TARGET_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="target.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="To">END</Property>
+                <Property name="From">RESP_SENT</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Content>{
+  &quot;action&quot;: &quot;get&quot;,
+  &quot;application&quot;: &quot;f4e60970-fa8c-11e5-bca5-2ded035c384c&quot;,
+  &quot;params&quot;: {},
+  &quot;path&quot;: &quot;/movies&quot;,
+  &quot;uri&quot;: &quot;https://api.usergrid.com/phamjon/sandbox/movies&quot;,
+  &quot;entities&quot;: [
+    {
+      &quot;uuid&quot;: &quot;719e148a-feb1-11e5-94a3-5706490846eb&quot;,
+      &quot;type&quot;: &quot;movie&quot;,
+      &quot;name&quot;: &quot;Zootopia&quot;,
+      &quot;created&quot;: 1460247377352,
+      &quot;modified&quot;: 1460247377352,
+      &quot;Actors&quot;: [
+        {
+          &quot;name1&quot;: &quot;Ginnifer Goodwin&quot;
+        },
+        {
+          &quot;name2&quot;: &quot;Jason Bateman&quot;
+        },
+  .....</Content>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="DebugMask">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:356</Timestamp>
+            <Properties>
+                <Property name="SuccessFullyMaskedConfigs">[]</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="StateChange">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:357</Timestamp>
+            <Properties>
+                <Property name="To">PROXY_POST_RESP_SENT</Property>
+                <Property name="From">END</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+    </Point>
+    <Point id="Condition">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:357</Timestamp>
+            <Properties>
+                <Property name="ExpressionResult">true</Property>
+                <Property name="Expression">(&quot;default&quot; equals proxy.name)</Property>
+                <Property name="Tree">PROXY_default</Property>
+            </Properties>
+        </DebugInfo>
+        <VariableAccess>
+            <Get value="default" name="proxy.name"/>
+        </VariableAccess>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:357</Timestamp>
+            <Properties>
+                <Property name="proxy.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="FlowInfo">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:357</Timestamp>
+            <Properties>
+                <Property name="current.flow.name">PostClientFlow</Property>
+            </Properties>
+        </DebugInfo>
+    </Point>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:357</Timestamp>
+            <Properties>
+                <Property name="expressionResult">false</Property>
+                <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                <Property name="expression">(analytics equals null )</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Paused"/>
+    <Point id="Execution">
+        <DebugInfo>
+            <Timestamp>23-04-16 17:55:29:358</Timestamp>
+            <Properties>
+                <Property name="expressionResult">true</Property>
+                <Property name="type">AnalyticsPublisher</Property>
+                <Property name="expression">(analytics not null)</Property>
+            </Properties>
+        </DebugInfo>
+        <ResponseMessage>
+            <Headers>
+                <Header name="Content-Length">819</Header>
+                <Header name="Content-Type">application/json; charset=utf-8</Header>
+                <Header name="Date">Sat, 23 04 2016 17:55:29 GMT</Header>
+                <Header name="ETag">1849912551</Header>
+                <Header name="X-Apigee.Message-ID">rrt333ea-19178-369581-4</Header>
+                <Header name="X-Powered-By">Express</Header>
+            </Headers>
+            <ReasonPhrase>OK</ReasonPhrase>
+            <StatusCode>200</StatusCode>
+        </ResponseMessage>
+        <VariableAccess/>
+    </Point>
+    <Point id="Resumed"/>
+    <Point id="Paused"/>
+</Data>
+</Message>
+</Messages>
+</DebugSession>
